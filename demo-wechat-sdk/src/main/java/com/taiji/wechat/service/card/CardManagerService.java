@@ -5,11 +5,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
-import com.kalian.thirdchannel.commons.exception.EStockThirdException;
-import com.kalian.thirdchannel.commons.network.http.BaseHttpClient;
+import com.taiji.common.exception.EStockThirdException;
+import com.taiji.common.network.http.BaseHttpClient;
 import com.taiji.wechat.constant.ConstantService;
 import com.taiji.wechat.service.card.createcard.Card;
 import com.taiji.wechat.service.card.membercardactivate.ActivateInfo;

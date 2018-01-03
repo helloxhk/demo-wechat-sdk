@@ -1,10 +1,6 @@
 package com.taiji.wechat.service.message.groupmessage;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.InputStreamReader;
-import java.net.URL;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -13,10 +9,8 @@ import net.sf.json.JSONObject;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.kalian.thirdchannel.commons.network.http.BaseHttpClient;
+import com.taiji.common.network.http.BaseHttpClient;
 import com.taiji.wechat.constant.ConstantService;
-import com.taiji.wechat.service.accesstoken.AccessTokenManagerService;
-import com.taiji.wechat.service.material.MaterialManagerService;
 
 public class GroupMessageManagerService extends BaseHttpClient<String> {
 

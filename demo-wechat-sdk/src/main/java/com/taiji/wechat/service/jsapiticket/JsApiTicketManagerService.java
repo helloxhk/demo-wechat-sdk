@@ -11,8 +11,8 @@ import java.util.UUID;
 
 import net.sf.json.JSONObject;
 
-import com.kalian.thirdchannel.commons.exception.EStockThirdException;
-import com.kalian.thirdchannel.commons.network.http.BaseHttpClient;
+import com.taiji.common.exception.EStockThirdException;
+import com.taiji.common.network.http.BaseHttpClient;
 import com.taiji.wechat.constant.ConstantService;
 import com.taiji.wechat.service.card.CardManagerService;
 import com.taiji.wechat.service.utils.StringUitls;
